@@ -33,6 +33,7 @@ export class ShowcaseComponent {
             (INNER_CONTAINER as HTMLElement).innerHTML = '';
             artworks['data'].forEach(artwork => {
               const CARD = document.createElement('div');
+              CARD.className = "card";
               CARD.style.display = 'flex';
               CARD.style.width = '30%';
               // CARD.style.height = 'auto';

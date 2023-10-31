@@ -103,4 +103,12 @@
         aspect-ratio: 1/1;
         object-fit: contain;
     }
+    .container{
+
+        .content{
+            .main{
+                width: 80%;
+            }
+        }
+    }
 }

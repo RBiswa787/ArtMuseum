@@ -50,3 +50,47 @@ input{
     font-size: 1.1em;
     color: grey;
 }
+@media screen and ( max-width: 600px){
+    .container{
+        display: flex;
+        width: 100vw;
+        height: auto;
+        margin-top: 2%;
+        align-items: center;
+        flex-direction: column;
+    
+        .inner-container{
+            display: flex;
+            width: 90%;
+            height: auto;
+            padding: 2%;
+            flex-wrap: wrap;
+            gap: 1em;
+            justify-content: space-between;
+
+            .card{
+                width: 40%;
+            }
+        }
+        .control{
+            display: flex;
+            width: 90%;
+            height: 5em;
+            padding-left : 3%;
+            padding-right : 3%;
+            justify-content: space-between;
+    
+            .control-button{
+                display: flex;
+                height: 80%;
+                width: 7em;
+                background-color:  black;
+                color: white;
+                font-size: 1em;
+                justify-content: center;
+                align-items: center;
+                border: none;
+            }
+        }
+    }
+}
