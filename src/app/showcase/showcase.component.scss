@@ -1,0 +1,52 @@
+input{
+    border: none;
+    outline: none;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    margin-top: 2%;
+    align-items: center;
+    flex-direction: column;
+
+    .inner-container{
+        display: flex;
+        width: 90%;
+        height: auto;
+        padding: 2%;
+        flex-wrap: wrap;
+        gap: 1em;
+        justify-content: space-between;
+    }
+    .control{
+        display: flex;
+        width: 90%;
+        height: 5em;
+        padding-left : 3%;
+        padding-right : 3%;
+        justify-content: space-between;
+
+        .control-button{
+            display: flex;
+            height: 80%;
+            width: 10em;
+            background-color:  black;
+            color: white;
+            font-size: 1em;
+            justify-content: center;
+            align-items: center;
+            border: none;
+        }
+    }
+}
+#page{
+    display: flex;
+    width: 10%;
+    height: 80%;
+    border: none;
+    background-color:  #f1f0f0;
+    padding-left: 3%;
+    font-size: 1.1em;
+    color: grey;
+}

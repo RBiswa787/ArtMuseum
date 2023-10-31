@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    margin-top: 2%;
+    align-items: center;
+    flex-direction: column;
+
+    .inner-container{
+        display: flex;
+        width: 90%;
+        height: auto;
+        padding: 2%;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+}
+
+.header-container{
+    display: flex;
+    width: 100vw;
+    height: 18vh;
+    justify-content: center;
+    align-items: center;
+
+    .header{
+        display: flex;
+        width: 90%;
+        height: 100%;
+        border-bottom: 1px solid grey;
+        align-items: center;
+
+        .header-text{
+            display: flex;
+            height: 50%;
+            width: 100%;
+            align-items: flex-end;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.3em;
+            font-weight: 200;
+            letter-spacing: 4px;
+            margin-top: 2%;
+        }
+    }
+}
