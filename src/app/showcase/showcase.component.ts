@@ -229,7 +229,7 @@ export class ShowcaseComponent {
         );
         this.collectionService.getArtworksByQuery(params['query']);
        }
-       else if(window.location.pathname = "/fav"){
+       else if(window.location.pathname == "/fav"){
 
        }
        else{
