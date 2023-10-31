@@ -229,13 +229,12 @@ export class ShowcaseComponent {
         );
         this.collectionService.getArtworksByQuery(params['query']);
        }
-       else if(window.location.pathname == "/fav"){
-
+       else if(Object.keys(params).includes('fav')){
+        alert("hello");
        }
        else{
         window.location.href = "./?page=137";
        }
-
        
       });
 

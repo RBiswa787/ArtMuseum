@@ -9,7 +9,7 @@ export class ThirdHeaderComponent {
     ngOnInit(){
       const FAV_LINK = document.getElementById("favourites");
       FAV_LINK?.addEventListener("click", () => {
-        window.location.href = "./fav";
+        window.location.href = "./fav?fav=1";
       });
 
       const ARTWORK_LINK = document.getElementById("artworks");
